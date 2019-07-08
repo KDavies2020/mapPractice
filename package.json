@@ -1,0 +1,26 @@
+{
+    "name": "mappractice",
+    "version": "1.0.0",
+    "description": "",
+    "main": "map.js",
+    "scripts": {
+        "test": "mocha -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KDavies2020/mapPractice.git"
+    },
+    "author": "Kyle Davies",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/KDavies2020/mapPractice/issues"
+    },
+    "homepage": "https://github.com/KDavies2020/mapPractice#readme",
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^6.1.4"
+    },
+    "dependencies": {
+        "sinon": "^7.3.2"
+    }
+}
