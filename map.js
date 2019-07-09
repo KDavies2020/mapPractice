@@ -37,7 +37,7 @@ let companies = [{
  */
 
 
-const getNames = companies.map(el => el["Company Name"]);
+const getNames = [];
 
 
 
@@ -48,22 +48,17 @@ const getNames = companies.map(el => el["Company Name"]);
 */
 
 
-const nameAndLocation = companies.map(el => [el["Company Name"], el["Location"]]);
+const nameAndLocation = [];
 
 
 
 /* 
-3) Use map to return an array of objects that include company name and their projected number of employees after growth. This number can be found by multipling current employeed times BY 1 + expected growth. 
+3) Use map to return an array of objects that include company name, their index position, and their projected number of employees after growth. This number can be found by multipling current employeed times BY 1 + expected growth. 
 
-ex output:[{"Company Name" : "Pepsi", "Expected Employees" : 277680}...]
+ex output:[{"Company Name" : "Pepsi", "Index" : 0, "Expected Employees" : 277680}...]
 */
 
-const expectedEmployees = companies.map((el) => {
-    return {
-        "Company Name": el["Company Name"],
-        "Expected Employees": el["Current Employees"] * (el["Expected Growth"] + 1)
-    }
-});
+const expectedEmployees = [];
 
 
 
